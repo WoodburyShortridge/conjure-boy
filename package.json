@@ -1,0 +1,21 @@
+{
+  "name": "conjure-boy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-13",
+    "dotenv": "^8.2.0",
+    "mqtt": "^4.2.6",
+    "phoenix-channels": "^1.0.0",
+    "play-sound": "^1.1.2",
+    "python-shell": "^3.0.0"
+  },
+  "author": "woodbury shortridge",
+  "license": "ISC"
+}
