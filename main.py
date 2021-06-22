@@ -34,7 +34,7 @@ def adjust_gamma(image, gamma=1.0):
 
 def transform_translation(screen):
     screen = Image.fromarray(screen)
-    screen = screen.rotate(270)
+    # screen = screen.rotate(180)
     screen = screen.transpose(Image.FLIP_LEFT_RIGHT)
     img = screen.resize((48, 24), Image.ANTIALIAS)
     enhancer = ImageEnhance.Sharpness(img)
